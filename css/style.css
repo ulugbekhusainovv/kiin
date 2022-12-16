@@ -88,22 +88,27 @@ body {
   background-color: #ffffef;
 }
 .hero__container {
-  display: grid;
-  place-items: center;
+  /* place-items: center; */
   background-image: url("../images/jpg/shaftoli.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   width: 1328px;
   height: 700px;
+  display: flex;
+  text-align: right;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 50px;
 }
 .hero__title {
+  margin-top: 450px;
   font-size: 45px;
   font-weight: 400;
-  line-height: 115%;
+
   color: #56593d;
-  width: 439px;
-  height: 61px;
+
+  margin-bottom: 2rem;
 }
 .hero__primary {
   font-size: 18px;
@@ -113,16 +118,22 @@ body {
   letter-spacing: 1.8px;
   width: 179px;
   height: 22px;
+  font-size: 1.8rem;
+  line-height: 1.2;
+  letter-spacing: 1.8px;
+  margin-bottom: 1rem;
 }
 .hero__link {
   font-size: 16px;
-  font-weight: 400;
   line-height: 119%;
   color: #ffffff;
   letter-spacing: 1.58px;
-  width: 154px;
-  height: 56px;
-  padding: 16px 25px;
+  width: 104px;
+  height: 23px;
+  padding-top: 16px;
+  padding-right: 25px;
+  padding-bottom: 17px;
+  padding-left: 25px;
   background-color: #56593d;
 }
 /* HAPPY */
@@ -132,12 +143,6 @@ body {
 .happy__container {
   padding: 11rem 0 9rem;
   text-align: center;
-  /* background-color: #ffffff;
-  flex-direction: column;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center; */
 }
 
 .happy__desription {
@@ -170,9 +175,11 @@ body {
   text-align: center;
 }
 .collection_title {
+  font-weight: 400;
   font-size: 2.4rem;
   line-height: 3.2rem;
   margin-bottom: 8rem;
+  color: #56593d;
 }
 .collection__list {
   display: flex;
@@ -207,9 +214,10 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
+  padding: 40px 56px;
 }
 .space__description {
-  padding-top: 15px;
+  /* padding-top: 6.2rem; */
   font-weight: 400;
   font-size: 17px;
   line-height: 8px;
@@ -217,9 +225,15 @@ body {
   color: #56593d;
 }
 .space__title {
-  font-size: 50;
+  font-weight: 400;
+  line-height: 6rem;
+  font-size: 50px;
   align-items: center;
   color: #56593d;
+  margin-left: 88px;
+  width: 1093px;
+  height: 121px;
+  text-align: center;
 }
 /* story */
 .story {
@@ -317,7 +331,8 @@ body {
   color: #ffffff;
   background-color: #56593d;
   padding: 0 25px 1px;
-  margin-left: 16px;
+  margin-left: 12px;
+  margin-bottom: 10px;
 }
 /* moments */
 .moments {
